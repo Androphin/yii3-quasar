@@ -1,0 +1,37 @@
+{
+    "name": "androphin/yii3-quasar",
+    "type": "yii3-extension",
+    "description": "The Quasar Framework integration for the Yii 3 framework",
+    "keywords": ["yii3", "quasar"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/androphin/yii3-quasar/issues?labels=ext%3Ayii3-quasar",
+        "source": "https://github.com/androphin/yii3-quasar"
+    },
+    "authors": [
+        {
+            "name": "Andro Phin"
+        }
+    ],
+    "require": {
+        "npm-asset/quasar": "^1.0.0"
+        "npm-asset/@quasar/extras": "^1.0.0",
+    },
+    "require-dev": {
+      "npm-asset/@quasar/app": "^1.0.0",
+      "npm-asset/babel-eslint": "^10.0.1",
+      "npm-asset/devtron": "^1.4.0",
+      "npm-asset/electron": "^9.0.0",
+      "npm-asset/electron-debug": "^3.0.1",
+      "npm-asset/electron-devtools-installer": "^3.0.0",
+      "npm-asset/eslint": "^6.8.0",
+      "npm-asset/eslint-config-prettier": "^6.9.0",
+      "npm-asset/eslint-loader": "^3.0.3",
+      "npm-asset/eslint-plugin-vue": "^6.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\yii3-quasar\\": ""
+        }
+    }
+}
